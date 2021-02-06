@@ -11,3 +11,10 @@ print(len(data))
 print(data[0])
 print('-----------------------------')
 print(data[1])
+
+sum_len = 0
+for i in data:
+	sum_len = sum_len + len(i)
+	#print(sum_len)
+avg = sum_len / len(data)
+print(avg)
