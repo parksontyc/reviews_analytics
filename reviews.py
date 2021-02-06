@@ -18,3 +18,10 @@ for i in data:
 	#print(sum_len)
 avg = sum_len / len(data)
 print(avg)
+
+new = []
+for i in data:
+	if len(i) <= 100:
+		new.append(i)
+		#print(len(new))
+print('共有', len(new), '筆資料小於100')
