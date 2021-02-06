@@ -31,3 +31,6 @@ for i in data:
 	if 'good' in i:
 		word.append(i)
 print('總共有', len(word), '筆資料裡面含有good字串')
+
+word = [i for i in data if "good" in i]
+print('總共有', len(word), '筆資料裡面含有good字串')
