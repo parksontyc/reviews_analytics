@@ -25,3 +25,9 @@ for i in data:
 		new.append(i)
 		#print(len(new))
 print('共有', len(new), '筆資料小於100')
+
+word = []
+for i in data:
+	if 'good' in i:
+		word.append(i)
+print('總共有', len(word), '筆資料裡面含有good字串')
