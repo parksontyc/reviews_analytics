@@ -34,3 +34,10 @@ print('總共有', len(word), '筆資料裡面含有good字串')
 
 word = [i for i in data if "good" in i]
 print('總共有', len(word), '筆資料裡面含有good字串')
+
+word = [1 for i in data if 'good' in i] #裝進1
+print('總共有', len(word), '筆資料裡面含有good字串')
+print(word)
+
+bad = ["bad" in i for i in data] #boolean
+print(bad)
